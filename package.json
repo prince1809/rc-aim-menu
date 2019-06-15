@@ -1,25 +1,15 @@
 {
   "name": "rc-aim-menu",
-  "version": "1.0.0",
-  "description": "",
+  "version": "2.0.0",
+  "description": "A React mixin version of Amazon's jQuery-menu-aim plugin",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/karma/bin/karma start test/karma.conf.js",
     "build": "./node_modules/browserify/bin/cmd.js demo/js/app.js -d -t babelify -p [minifyify --no-map] -o demo/js/app.bundle.js",
     "watch": "./node_modules/watchify/bin/cmd.js demo/js/app.js -t babelify -o demo/js/app.bundle.js -v -d"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prince1809/rc-aim-menu.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/prince1809/rc-aim-menu/issues"
-  },
-  "homepage": "https://github.com/prince1809/rc-aim-menu#readme",
   "peerDependencies": {
-    "react-dom": "^16.8.6"
+    "react-dom": "^0.14.0 || ^15.0.0 || ^16.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
